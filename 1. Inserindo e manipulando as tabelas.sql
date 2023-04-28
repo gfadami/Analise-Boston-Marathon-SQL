@@ -3,22 +3,22 @@ SELECT * FROM MARATONA_HOMENS
 DELETE FROM MARATONA_HOMENS
 WHERE Year = ''
 -- Em 1918 a maratona foi realizada em revezamentos de equipes, por causa da Primeira Guerra Mudial.
--- Em 2020 a maratona n�o foi realizada por conta da COVID-19.
+-- Em 2020 a maratona não foi realizada por conta da COVID-19.
 
 UPDATE MARATONA_HOMENS
-SET Winner = REPLACE(Winner, 'Édouard Fabre', '�douard Fabre');
+SET Winner = REPLACE(Winner, 'Ã‰douard Fabre', 'Édouard Fabre');
 
 UPDATE MARATONA_HOMENS
-SET Winner = REPLACE(Winner, 'Gérard Côté', 'G�rard C�t�');
+SET Winner = REPLACE(Winner, 'GÃ©rard CÃ´tÃ©', 'Gérard Côté');
 
 UPDATE MARATONA_HOMENS
-SET Winner = REPLACE(Winner, 'Gösta Leandersson', 'Karl Leandersson');
+SET Winner = REPLACE(Winner, 'GÃ¶sta Leandersson', 'Karl Leandersson');
 
 UPDATE MARATONA_HOMENS
-SET Winner = REPLACE(Winner, 'Aurèle Vandendriessche', 'Aur�le Vandendriessche');
+SET Winner = REPLACE(Winner, 'AurÃ¨le Vandendriessche', 'Aurèle Vandendriessche');
 
 UPDATE MARATONA_HOMENS
-SET Winner = REPLACE(Winner, 'Álvaro Mejía', '�lvaro Mej�a');
+SET Winner = REPLACE(Winner, 'Ãlvaro MejÃ­a', 'Álvaro Mejía');
 
 SELECT * FROM MARATONA_MULHERES
 
@@ -104,7 +104,7 @@ VALUES
 
 SELECT*FROM MARATONA_MULHERES
 
--- ACIMA, ADD MANUALMENTE OS ANOS EM QUE N�O HOUVE CORRIDA DE MULHERES, ABAIXO USANDO LOOP PARA ADICIONAR
+-- ACIMA, ADD MANUALMENTE OS ANOS EM QUE NÃO HOUVE CORRIDA DE MULHERES, ABAIXO USANDO LOOP PARA ADICIONAR
 
 USE BOSTON_MARATONA
 GO
