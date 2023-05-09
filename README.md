@@ -5,6 +5,7 @@ Análise dos vencedores da Maratona de Boston.
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Vencedores da Maratona de Boston**
-| :label: Tecnologias | sql-server, sql management studio
+| :label: Tecnologias | sql-server, sql management studio, power bi
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://imgur.com/a/tZz1MJl#vitrinedev)
